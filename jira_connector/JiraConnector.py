@@ -10,6 +10,13 @@ class JiraConnector:
     #jira = JIRA(JiraUrl)
     auth_jira = JIRA(JiraUrl, auth=('magnit_322@rambler.ru', 'Quant240420'))
 
+    def get_task(self, key):
+        try:
+            issue = self.auth_jira.issue(key)
+            return issue
+        except Exception:
+            return False
+
     def get_projects(self):
         return self.auth_jira.projects()
 

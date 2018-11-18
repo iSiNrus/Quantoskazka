@@ -46,8 +46,11 @@ def bag_for_bot(chat_id, project, summary, user):
 def print_projects(chat_id):
     jc = JiraConnector('https://quanoskazka.atlassian.net/')
     proj = jc.get_projects()
+    out = ''
+    out = out + 'Проекты:\n'
     for object in proj:
-        tt.send(chat_id, 'Проекты:\n' + object.__str__()+'\n')
+        out = out + object.__str__() + ' - ' + object.__getattr__('name')
+    tt.send(chat_id, out)
 
 def delete_task(chat_id):
     tt.send(chat_id, 'Задача удалена... или нет')
