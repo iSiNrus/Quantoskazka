@@ -61,7 +61,9 @@ def get_tasks_from(chat_id, project):
     if issues:
         out = ''
         for object in issues:
-            out = out + object.__str__()+'\n'
+            task = jc.get_task(object.__getattr__('key'))
+            out = out + object.__str__()+' - '
+            out = out + task.fields.summary + '\n'
         tt.send(chat_id, out)
     else:
         tt.send(chat_id, 'Ошибка')

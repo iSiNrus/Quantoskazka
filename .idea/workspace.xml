@@ -4,7 +4,6 @@
     <list default="true" id="fe962b2d-c160-4767-bda9-72c47e313cf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jira_connector/JiraConnector.py" beforeDir="false" afterPath="$PROJECT_DIR$/jira_connector/JiraConnector.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +37,13 @@
         <counts>
           <entry key="dummy" value="8" />
           <entry key="json" value="2" />
-          <entry key="py" value="5097" />
+          <entry key="py" value="5206" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="5097" />
+          <entry key="Python" value="5206" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
@@ -55,12 +54,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+            <state relative-caret-position="297">
+              <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
               <folding>
                 <element signature="e#1#12#0" expanded="true" />
-                <marker date="1542530656840" expanded="true" signature="1438:1696" ph="..." />
-                <marker date="1542530656840" expanded="true" signature="1810:2091" ph="..." />
+                <marker date="1542531550551" expanded="true" signature="1438:1696" ph="..." />
+                <marker date="1542531550551" expanded="true" signature="1810:2201" ph="..." />
               </folding>
             </state>
           </provider>
@@ -87,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jira_connector/JiraConnector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="272">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <marker date="1542530052362" expanded="true" signature="92:93" ph="..." />
                 <marker date="1542530052362" expanded="true" signature="290:431" ph="..." />
@@ -343,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jira_connector/JiraConnector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="272">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <marker date="1542530052362" expanded="true" signature="92:93" ph="..." />
             <marker date="1542530052362" expanded="true" signature="290:431" ph="..." />
@@ -355,12 +354,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        <state relative-caret-position="297">
+          <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
           <folding>
             <element signature="e#1#12#0" expanded="true" />
-            <marker date="1542530656840" expanded="true" signature="1438:1696" ph="..." />
-            <marker date="1542530656840" expanded="true" signature="1810:2091" ph="..." />
+            <marker date="1542531550551" expanded="true" signature="1438:1696" ph="..." />
+            <marker date="1542531550551" expanded="true" signature="1810:2201" ph="..." />
           </folding>
         </state>
       </provider>
